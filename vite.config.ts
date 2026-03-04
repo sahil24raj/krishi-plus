@@ -11,10 +11,9 @@ export default defineConfig(({ mode }) => {
   allowedHosts: ["krishi-plus12.onrender.com"]
 },
       plugins: [react()],
-      define: {
-        'process.env.API_KEY': JSON.stringify(env.GEMINI_API_KEY),
-        'process.env.GEMINI_API_KEY': JSON.stringify(env.GEMINI_API_KEY)
-      },
+    define: {
+  'process.env.API_KEY': JSON.stringify(env.VITE_API_KEY),
+},
       resolve: {
         alias: {
           '@': path.resolve(__dirname, '.'),
