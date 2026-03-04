@@ -1,0 +1,7 @@
+{
+  "name": "KRISHI+",
+  "description": "An all-in-one platform for farmers, providing AI-powered crop disease detection, learning resources, community support, crop planning tools, and a marketplace.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
